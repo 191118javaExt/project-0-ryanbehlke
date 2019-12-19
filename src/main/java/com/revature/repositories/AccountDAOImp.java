@@ -158,7 +158,7 @@ public class AccountDAOImp implements AccountDAO {
 		if (amount > from.getBalance()) {
 			return false;
 		} else {
-			if(withdraw(from, amount) && deposit(from, amount)) {
+			if(withdraw(from, amount) && deposit(to, amount)) {
 				return true;
 			}
 		}

@@ -27,11 +27,9 @@ class Bank{
 		
 	}
 	
-	
-	
 	void LogInOrRegister() {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("[1]Log In or [2]Register?");
+		System.out.println("Welcome to the RTB Banking App! [1]Log In or [2]Register?");
 		String option = sc.nextLine();
 		switch(option) {
 			case "1":{
@@ -133,10 +131,7 @@ class Bank{
 			default:{
 				System.out.println("Invalid Input");
 			}
-			
 		}
-		
-		
 	}
 	void adminMenu() {
 		Scanner scanner = new Scanner(System.in); 

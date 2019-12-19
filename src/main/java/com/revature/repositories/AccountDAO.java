@@ -6,7 +6,7 @@ import java.util.Set;
 import com.revature.models.Account;
 import com.revature.models.User;
 
-public interface AccountDAO {
+public interface AccountDAO { 
 
 	public List<Account> getAllAccounts();
 		
